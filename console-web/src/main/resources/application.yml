@@ -1,0 +1,46 @@
+spring:
+  datasource: 
+    url: jdbc:mariadb://192.168.0.17:3306/nhjd
+    username: root
+    password: root
+    driver-class-name: org.mariadb.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #   数据源其他配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+#   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙  
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true  
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+#    dbcp2:                     # 进行数据库连接池的配置
+#      min-idle: 5              # 数据库连接池的最小维持连接数 
+#      initial-size: 5          # 初始化提供的连接数
+#      max-total: 5             # 最大的连接数
+#      max-wait-millis: 200     # 等待连接获取的最大超时时间
+#      query-timeout: 6000      # 查询超时时间
+#      transaction-query-timeout: 6000   #事务查询超时时间       
+#      remove-abandoned-timeout: 1800    #关闭空闲连接超时时间  
+server: 
+  port: 8888
+mybatis:
+    config-location: classpath:mybatis/mybatis.config.xml    # mybatis配置文件所在路径
+    type-aliases-package: com.lvsazf.model
+    mapperLocations: classpath:mapping/*.xml
+    default-statement-timeout: 30
+#pagehelper分页插件
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+    returnPageInfo: check
