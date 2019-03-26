@@ -28,6 +28,33 @@
 			<artifactId>console-model</artifactId>
 			<version>${console.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.lvsazf</groupId>
+			<artifactId>console-core</artifactId>
+			<version>${console.version}</version>
+		</dependency><dependency>
+			<groupId>com.lvsazf</groupId>
+			<artifactId>console-config</artifactId>
+			<version>${console.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 	<!--spring boot打包的话需要指定一个唯一的入门 -->
 	<build>

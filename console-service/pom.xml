@@ -23,6 +23,10 @@
 			<groupId>com.lvsazf</groupId>
 			<artifactId>console-mapper</artifactId>
 			<version>${console.version}</version>
+		</dependency><dependency>
+			<groupId>com.lvsazf</groupId>
+			<artifactId>console-core</artifactId>
+			<version>${console.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

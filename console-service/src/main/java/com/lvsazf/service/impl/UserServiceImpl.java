@@ -1,24 +1,28 @@
 package com.lvsazf.service.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.github.pagehelper.PageInfo;
+import com.lvsazf.core.annotation.Log;
+import com.lvsazf.mapper.OrderDeliveryMapper;
+import com.lvsazf.model.OrderDelivery;
+import com.lvsazf.service.UserService;
 import org.springframework.stereotype.Service;
 
-import com.lvsazf.mapper.CodeMapper;
-import com.lvsazf.model.Code;
-import com.lvsazf.model.User;
-import com.lvsazf.service.UserService;
+import javax.annotation.Resource;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {
-	
-	@Autowired
-	private CodeMapper mapper;
-	
-	@Override
-	public User findByUserId(String id) {
-		Code code = mapper.selectByPrimaryKey(id);
-		System.out.println(code);
-		return null;
-	}
 
+    @Resource
+    private OrderDeliveryMapper mapper;
+
+    @Override
+    @Log(message = "orderDelivery")
+    public OrderDelivery findByUserId(Long id) {
+        return mapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public PageInfo<OrderDelivery> selectAll(OrderDelivery orderDelivery) {
+        return mapper.selectAll(orderDelivery);
+    }
 }

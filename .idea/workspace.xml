@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd50b0ca-066b-4706-b2a5-fc4d2feb0620" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/console-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/CacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/HttpMessageConverterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/LogAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/handler/BaseGlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/handler/ResponseResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/interceptor/ResponseResultInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-core/src/main/java/com/lvsazf/core/annotation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-core/src/main/java/com/lvsazf/core/annotation/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/interfaces/UserCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/main/ProxyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/main/UserCaseTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/proxy/SalaryProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/service/Advice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/service/SalaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/service/impl/SalaryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/service/impl/TimeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/utils/PasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-demo/src/test/java/org/lvsazf/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/constants/HeaderConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/ApiStyleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/BusinessExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/CallSourceEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/ExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/DataConflictException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/DataNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/InternalServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/MethodNotAllowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/ParameterInvalidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/PermissionForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/RemoteAccessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/UserNotLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/base/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/result/DefaultErrorResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/result/PlatformResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-utils/src/main/java/com/lvsazf/console/utils/ConvertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-utils/src/main/java/com/lvsazf/console/utils/ParameterInvalidItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-utils/src/main/java/com/lvsazf/console/utils/RequestContextHolderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-utils/src/main/java/com/lvsazf/console/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console-web/src/test/java/com/lvsazf/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-api/src/main/java/com/lvsazf/api/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-core/src/main/java/com/lvsazf/core/model/Pager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-mapper/src/main/java/com/lvsazf/mapper/CodeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-mapper/src/main/java/com/lvsazf/mapper/PersonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-mapper/src/main/resources/generator/generatorConfig2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console-mapper/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-mapper/src/main/resources/mapper/PersonMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-mapper/src/main/resources/mapping/CodeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-mapper/src/main/resources/mybatis/NewFile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-mapper/src/main/resources/mybatis/NewFile1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-mapper/src/main/resources/mybatis/mybatis.config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console-mapper/src/main/resources/mybatis/mybatis.config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/Code.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-service/src/main/java/com/lvsazf/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-service/src/main/java/com/lvsazf/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-service/src/main/java/com/lvsazf/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-service/src/main/java/com/lvsazf/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-utils/src/main/java/com/lvsazf/console/utils/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/console-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console-web/src/main/resources/generator/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/console-web/target/" />
+    <ignored path="$PROJECT_DIR$/console-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/console-model/target/" />
+    <ignored path="$PROJECT_DIR$/console-api/target/" />
+    <ignored path="$PROJECT_DIR$/console-service/target/" />
+    <ignored path="$PROJECT_DIR$/console-utils/target/" />
+    <ignored path="$PROJECT_DIR$/console-core/target/" />
+    <ignored path="$PROJECT_DIR$/console-demo/target/" />
+    <ignored path="$PROJECT_DIR$/console-cache/target/" />
+    <ignored path="$PROJECT_DIR$/console-config/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/console-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/console-service/src/main/java/com/lvsazf/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/LogAop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/console-mapper/src/main/resources/generator/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/console-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MissingServletRequestParameterException</find>
+      <find>maxidle</find>
+      <find>poolPreparedStatements</find>
+      <find>mapper-spring-boot-starter</find>
+      <find>PluginAdapter</find>
+      <find>addModelClassComment</find>
+      <find>addComment</find>
+      <find>addFieldAnnotation</find>
+      <find>contextGenerateAdditionalJavaFiles</find>
+      <find>project.version</find>
+      <find>com.fendo.mapper</find>
+      <find>javax.validation</find>
+      <find>lom</find>
+      <find>test</find>
+      <find>java.cache</find>
+      <find>utf</find>
+      <find>UTF-8</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/service/SalaryService.java" />
+        <option value="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/service/Advice.java" />
+        <option value="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/service/impl/TimeAdvice.java" />
+        <option value="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/proxy/SalaryProxy.java" />
+        <option value="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/proxy/ProxyMain.java" />
+        <option value="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/service/impl/SalaryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/interfaces/UserCase.java" />
+        <option value="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/utils/PasswordUtils.java" />
+        <option value="$PROJECT_DIR$/console-demo/src/main/java/org/lvsazf/main/UserCaseTracker.java" />
+        <option value="$PROJECT_DIR$/console-demo/src/test/java/org/lvsazf/test.java" />
+        <option value="$PROJECT_DIR$/console-demo/src/test/java/org/lvsazf/Test.java" />
+        <option value="$PROJECT_DIR$/console-mapper/src/main/java/com/lvsazf/interceptor/CustomPageInterceptor.java" />
+        <option value="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/base/BaseModel.java" />
+        <option value="$PROJECT_DIR$/console-mapper/src/main/resources/mapping/OrderDeliveryMapper.xml" />
+        <option value="$PROJECT_DIR$/console-service/src/test/java/TestService.java" />
+        <option value="$PROJECT_DIR$/console-mapper/src/test/java/com/lvsazf/TestService.java" />
+        <option value="$PROJECT_DIR$/console-mapper/src/main/resources/mybatis/mybatis.config.xml" />
+        <option value="$PROJECT_DIR$/console-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/console-cache/src/main/java/org/lvsazf/console/config/CacheConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/result/Result.java" />
+        <option value="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/interceptor/ResponseResultInterceptor.java" />
+        <option value="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/annotation/ResponseResult.java" />
+        <option value="$PROJECT_DIR$/console-web/pom.xml" />
+        <option value="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/result/DefaultErrorResult.java" />
+        <option value="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/result/PlatformResult.java" />
+        <option value="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/BusinessExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/handler/ResponseResultHandler.java" />
+        <option value="$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/handler/BaseGlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/handler/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/handler/BaseGlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/Application.java" />
+        <option value="$PROJECT_DIR$/console-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/FastJsonConfig.java" />
+        <option value="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/HttpMessageConverterConfig.java" />
+        <option value="$PROJECT_DIR$/console-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/console-mapper/src/main/java/com/lvsazf/mapper/OrderDeliveryMapper.java" />
+        <option value="$PROJECT_DIR$/console-service/src/main/java/com/lvsazf/service/UserService.java" />
+        <option value="$PROJECT_DIR$/console-web/src/test/java/com/lvsazf/TestService.java" />
+        <option value="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/CacheConfig.java" />
+        <option value="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/annotation/LogPrint.java" />
+        <option value="$PROJECT_DIR$/console-config/pom.xml" />
+        <option value="$PROJECT_DIR$/console-service/pom.xml" />
+        <option value="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/OrderDelivery.java" />
+        <option value="$PROJECT_DIR$/console-core/src/main/java/com/lvsazf/core/annotation/LogPrint.java" />
+        <option value="$PROJECT_DIR$/console-service/src/main/java/com/lvsazf/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/console-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/console-mapper/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/LogAop.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jy-console" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jy-console" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lvsazf" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/result" />
+      <recent name="$PROJECT_DIR$/console-mapper/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="ProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lvsazf.main.ProxyMain" />
+      <module name="console-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCaseTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lvsazf.main.UserCaseTracker" />
+      <module name="console-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestService.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="console-service" />
+      <option name="PACKAGE_NAME" value="com.lvsazf" />
+      <option name="MAIN_CLASS_NAME" value="com.lvsazf.TestService" />
+      <option name="METHOD_NAME" value="testPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestService.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="console-web" />
+      <option name="PACKAGE_NAME" value="com.lvsazf" />
+      <option name="MAIN_CLASS_NAME" value="com.lvsazf.TestService" />
+      <option name="METHOD_NAME" value="testPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="console-demo" />
+      <option name="PACKAGE_NAME" value="org.lvsazf" />
+      <option name="MAIN_CLASS_NAME" value="org.lvsazf.Test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="console-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lvsazf.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestService.testPage" />
+        <item itemvalue="JUnit.Test.test1" />
+        <item itemvalue="Application.UserCaseTracker" />
+        <item itemvalue="Application.ProxyMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd50b0ca-066b-4706-b2a5-fc4d2feb0620" name="Default Changelist" comment="" />
+      <created>1546946742126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546946742126</updated>
+      <workItem from="1546946743615" duration="4917000" />
+      <workItem from="1547005746733" duration="7740000" />
+      <workItem from="1547130326498" duration="1120000" />
+      <workItem from="1547176996819" duration="2401000" />
+      <workItem from="1547217397689" duration="437000" />
+      <workItem from="1547258423696" duration="17262000" />
+      <workItem from="1547435650705" duration="1199000" />
+      <workItem from="1547444523256" duration="2818000" />
+      <workItem from="1547531212744" duration="653000" />
+      <workItem from="1547532059210" duration="122000" />
+      <workItem from="1547532244521" duration="5010000" />
+      <workItem from="1547543250429" duration="8380000" />
+      <workItem from="1547709155772" duration="2746000" />
+      <workItem from="1547719221421" duration="1342000" />
+      <workItem from="1547776930785" duration="4000" />
+      <workItem from="1547865827999" duration="1862000" />
+      <workItem from="1548150481475" duration="85000" />
+      <workItem from="1548167488096" duration="18000" />
+      <workItem from="1548167653063" duration="158000" />
+      <workItem from="1548168478733" duration="625000" />
+      <workItem from="1548213405017" duration="486000" />
+      <workItem from="1548420810575" duration="289000" />
+      <workItem from="1548640101059" duration="16200000" />
+      <workItem from="1549877374568" duration="4546000" />
+      <workItem from="1549888483562" duration="726000" />
+      <workItem from="1550125505117" duration="2229000" />
+      <workItem from="1551410129972" duration="559000" />
+      <workItem from="1552058803589" duration="305000" />
+      <workItem from="1553259761764" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestService_testPage - 2019.01.17 at 15h 34m 31s.xml">
+      <configuration name="TestService.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestService_testPage - 2019.01.17 at 15h 36m 26s.xml">
+      <configuration name="TestService.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestService_testPage - 2019.01.17 at 15h 40m 13s.xml">
+      <configuration name="TestService.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestService_testPage - 2019.01.17 at 15h 44m 22s.xml">
+      <configuration name="TestService.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestService_testPage - 2019.01.17 at 15h 45m 11s.xml">
+      <configuration name="TestService.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestService_testPage - 2019.01.17 at 15h 48m 45s.xml">
+      <configuration name="TestService.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestService_testPage - 2019.01.17 at 15h 51m 11s.xml">
+      <configuration name="TestService.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestService_testPage - 2019.01.17 at 16h 00m 00s.xml">
+      <configuration name="TestService.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestService_testPage - 2019.01.17 at 16h 01m 20s.xml">
+      <configuration name="TestService.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestService_testPage - 2019.01.17 at 16h 01m 55s.xml">
+      <configuration name="TestService.testPage" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="84278000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4985694" weight="0.33975902" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.3192771" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.33975902" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="PlantUML" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15808298" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="JSON Viewer" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4985694" visible="true" weight="0.33975902" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.3192771" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.33975902" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15808298" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="JSON Viewer" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/framework/result/PlatformResult.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.7/mybatis-generator-core-1.3.7-sources.jar!/org/mybatis/generator/api/MyBatisGenerator.java</url>
+          <line>220</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/PermissionForbiddenException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/RemoteAccessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/UserNotLoginException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/result/DefaultErrorResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="87" column="50" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/ExceptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/BusinessExceptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/ApiStyleEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/enums/CallSourceEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="85" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/result/PlatformResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/handler/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="54" column="85" selection-start-line="54" selection-start-column="85" selection-end-line="54" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/handler/ResponseResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/handler/BaseGlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/constants/HeaderConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="38" selection-start-line="29" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-cache/2.1.0.RELEASE/spring-boot-starter-cache-2.1.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/FastJsonConfig.java" />
+    <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="612" column="51" lean-forward="true" selection-start-line="612" selection-start-column="46" selection-end-line="612" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/HttpMessageConverterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/cache/annotation/CacheConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/cache/annotation/Cacheable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-service/src/main/java/com/lvsazf/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7133">
+          <caret line="122" column="24" lean-forward="true" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Byte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="507" column="30" lean-forward="true" selection-start-line="507" selection-end-line="508" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/util/NumberUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-mapper/src/main/java/com/lvsazf/mapper/OrderDeliveryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-mapper/src/main/resources/mapping/OrderDeliveryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="247" column="2" selection-start-line="247" selection-start-column="2" selection-end-line="247" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-web/src/test/java/com/lvsazf/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/Retention.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-core/src/main/java/com/lvsazf/core/annotation/ResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/CacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/interceptor/ResponseResultInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-web/src/main/java/com/lvsazf/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-core/src/main/java/com/lvsazf/core/annotation/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-model/src/main/java/com/lvsazf/model/OrderDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-config/src/main/java/com/lvsazf/config/LogAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-mapper/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console-service/src/main/java/com/lvsazf/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>console-config</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

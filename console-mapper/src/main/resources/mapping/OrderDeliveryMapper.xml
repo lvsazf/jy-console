@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lvsazf.mapper.OrderDeliveryMapper">
+  <resultMap id="BaseResultMap" type="com.lvsazf.model.OrderDelivery">
+    <id column="delivery_id" jdbcType="BIGINT" property="deliveryId" />
+    <result column="delivery_no" jdbcType="BIGINT" property="deliveryNo" />
+    <result column="delivery_status" jdbcType="INTEGER" property="deliveryStatus" />
+    <result column="third_delivery_no" jdbcType="VARCHAR" property="thirdDeliveryNo" />
+    <result column="license_plate" jdbcType="VARCHAR" property="licensePlate" />
+    <result column="delivery_person" jdbcType="VARCHAR" property="deliveryPerson" />
+    <result column="delivery_person_phone" jdbcType="VARCHAR" property="deliveryPersonPhone" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="delivery_time" jdbcType="BIGINT" property="deliveryTime" />
+    <result column="simple_spec" jdbcType="DECIMAL" property="simpleSpec" />
+    <result column="is_delete" jdbcType="CHAR" property="isDelete" />
+    <result column="stock_id" jdbcType="BIGINT" property="stockId" />
+    <result column="delivery_name" jdbcType="VARCHAR" property="deliveryName" />
+    <result column="print_times" jdbcType="INTEGER" property="printTimes" />
+    <result column="delivery_person_id" jdbcType="BIGINT" property="deliveryPersonId" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="finish_time" jdbcType="TIMESTAMP" property="finishTime" />
+    <result column="finish_status" jdbcType="TINYINT" property="finishStatus" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    delivery_id, delivery_no, delivery_status, third_delivery_no, license_plate, delivery_person, 
+    delivery_person_phone, create_time, delivery_time, simple_spec, is_delete, stock_id, 
+    delivery_name, print_times, delivery_person_id, update_time, finish_time, finish_status
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from vv_order_delivery
+    where delivery_id = #{deliveryId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from vv_order_delivery
+    where delivery_id = #{deliveryId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.lvsazf.model.OrderDelivery">
+    insert into vv_order_delivery (delivery_id, delivery_no, delivery_status, 
+      third_delivery_no, license_plate, delivery_person, 
+      delivery_person_phone, create_time, delivery_time, 
+      simple_spec, is_delete, stock_id, 
+      delivery_name, print_times, delivery_person_id, 
+      update_time, finish_time, finish_status
+      )
+    values (#{deliveryId,jdbcType=BIGINT}, #{deliveryNo,jdbcType=BIGINT}, #{deliveryStatus,jdbcType=INTEGER}, 
+      #{thirdDeliveryNo,jdbcType=VARCHAR}, #{licensePlate,jdbcType=VARCHAR}, #{deliveryPerson,jdbcType=VARCHAR}, 
+      #{deliveryPersonPhone,jdbcType=VARCHAR}, #{createTime,jdbcType=BIGINT}, #{deliveryTime,jdbcType=BIGINT}, 
+      #{simpleSpec,jdbcType=DECIMAL}, #{isDelete,jdbcType=CHAR}, #{stockId,jdbcType=BIGINT}, 
+      #{deliveryName,jdbcType=VARCHAR}, #{printTimes,jdbcType=INTEGER}, #{deliveryPersonId,jdbcType=BIGINT}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{finishTime,jdbcType=TIMESTAMP}, #{finishStatus,jdbcType=TINYINT}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.lvsazf.model.OrderDelivery">
+    insert into vv_order_delivery
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="deliveryId != null">
+        delivery_id,
+      </if>
+      <if test="deliveryNo != null">
+        delivery_no,
+      </if>
+      <if test="deliveryStatus != null">
+        delivery_status,
+      </if>
+      <if test="thirdDeliveryNo != null">
+        third_delivery_no,
+      </if>
+      <if test="licensePlate != null">
+        license_plate,
+      </if>
+      <if test="deliveryPerson != null">
+        delivery_person,
+      </if>
+      <if test="deliveryPersonPhone != null">
+        delivery_person_phone,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="deliveryTime != null">
+        delivery_time,
+      </if>
+      <if test="simpleSpec != null">
+        simple_spec,
+      </if>
+      <if test="isDelete != null">
+        is_delete,
+      </if>
+      <if test="stockId != null">
+        stock_id,
+      </if>
+      <if test="deliveryName != null">
+        delivery_name,
+      </if>
+      <if test="printTimes != null">
+        print_times,
+      </if>
+      <if test="deliveryPersonId != null">
+        delivery_person_id,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="finishTime != null">
+        finish_time,
+      </if>
+      <if test="finishStatus != null">
+        finish_status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="deliveryId != null">
+        #{deliveryId,jdbcType=BIGINT},
+      </if>
+      <if test="deliveryNo != null">
+        #{deliveryNo,jdbcType=BIGINT},
+      </if>
+      <if test="deliveryStatus != null">
+        #{deliveryStatus,jdbcType=INTEGER},
+      </if>
+      <if test="thirdDeliveryNo != null">
+        #{thirdDeliveryNo,jdbcType=VARCHAR},
+      </if>
+      <if test="licensePlate != null">
+        #{licensePlate,jdbcType=VARCHAR},
+      </if>
+      <if test="deliveryPerson != null">
+        #{deliveryPerson,jdbcType=VARCHAR},
+      </if>
+      <if test="deliveryPersonPhone != null">
+        #{deliveryPersonPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="deliveryTime != null">
+        #{deliveryTime,jdbcType=BIGINT},
+      </if>
+      <if test="simpleSpec != null">
+        #{simpleSpec,jdbcType=DECIMAL},
+      </if>
+      <if test="isDelete != null">
+        #{isDelete,jdbcType=CHAR},
+      </if>
+      <if test="stockId != null">
+        #{stockId,jdbcType=BIGINT},
+      </if>
+      <if test="deliveryName != null">
+        #{deliveryName,jdbcType=VARCHAR},
+      </if>
+      <if test="printTimes != null">
+        #{printTimes,jdbcType=INTEGER},
+      </if>
+      <if test="deliveryPersonId != null">
+        #{deliveryPersonId,jdbcType=BIGINT},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="finishTime != null">
+        #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="finishStatus != null">
+        #{finishStatus,jdbcType=TINYINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.lvsazf.model.OrderDelivery">
+    update vv_order_delivery
+    <set>
+      <if test="deliveryNo != null">
+        delivery_no = #{deliveryNo,jdbcType=BIGINT},
+      </if>
+      <if test="deliveryStatus != null">
+        delivery_status = #{deliveryStatus,jdbcType=INTEGER},
+      </if>
+      <if test="thirdDeliveryNo != null">
+        third_delivery_no = #{thirdDeliveryNo,jdbcType=VARCHAR},
+      </if>
+      <if test="licensePlate != null">
+        license_plate = #{licensePlate,jdbcType=VARCHAR},
+      </if>
+      <if test="deliveryPerson != null">
+        delivery_person = #{deliveryPerson,jdbcType=VARCHAR},
+      </if>
+      <if test="deliveryPersonPhone != null">
+        delivery_person_phone = #{deliveryPersonPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="deliveryTime != null">
+        delivery_time = #{deliveryTime,jdbcType=BIGINT},
+      </if>
+      <if test="simpleSpec != null">
+        simple_spec = #{simpleSpec,jdbcType=DECIMAL},
+      </if>
+      <if test="isDelete != null">
+        is_delete = #{isDelete,jdbcType=CHAR},
+      </if>
+      <if test="stockId != null">
+        stock_id = #{stockId,jdbcType=BIGINT},
+      </if>
+      <if test="deliveryName != null">
+        delivery_name = #{deliveryName,jdbcType=VARCHAR},
+      </if>
+      <if test="printTimes != null">
+        print_times = #{printTimes,jdbcType=INTEGER},
+      </if>
+      <if test="deliveryPersonId != null">
+        delivery_person_id = #{deliveryPersonId,jdbcType=BIGINT},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="finishTime != null">
+        finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="finishStatus != null">
+        finish_status = #{finishStatus,jdbcType=TINYINT},
+      </if>
+    </set>
+    where delivery_id = #{deliveryId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.lvsazf.model.OrderDelivery">
+    update vv_order_delivery
+    set delivery_no = #{deliveryNo,jdbcType=BIGINT},
+      delivery_status = #{deliveryStatus,jdbcType=INTEGER},
+      third_delivery_no = #{thirdDeliveryNo,jdbcType=VARCHAR},
+      license_plate = #{licensePlate,jdbcType=VARCHAR},
+      delivery_person = #{deliveryPerson,jdbcType=VARCHAR},
+      delivery_person_phone = #{deliveryPersonPhone,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=BIGINT},
+      delivery_time = #{deliveryTime,jdbcType=BIGINT},
+      simple_spec = #{simpleSpec,jdbcType=DECIMAL},
+      is_delete = #{isDelete,jdbcType=CHAR},
+      stock_id = #{stockId,jdbcType=BIGINT},
+      delivery_name = #{deliveryName,jdbcType=VARCHAR},
+      print_times = #{printTimes,jdbcType=INTEGER},
+      delivery_person_id = #{deliveryPersonId,jdbcType=BIGINT},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      finish_status = #{finishStatus,jdbcType=TINYINT}
+    where delivery_id = #{deliveryId,jdbcType=BIGINT}
+  </update>
+  <select id="selectAll" parameterType="com.lvsazf.model.OrderDelivery" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List"/>
+    FROM vv_order_delivery
+  </select>
+</mapper>

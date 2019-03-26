@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="console-api" />
+        <module name="console-config" />
+        <module name="console-core" />
+        <module name="console-demo" />
+        <module name="console-mapper" />
+        <module name="console-model" />
+        <module name="console-service" />
+        <module name="console-utils" />
+        <module name="console-web" />
+        <module name="consoledemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="console-api" target="1.8" />
+      <module name="console-config" target="1.8" />
+      <module name="console-core" target="1.8" />
+      <module name="console-demo" target="1.8" />
+      <module name="console-mapper" target="1.8" />
+      <module name="console-model" target="1.8" />
+      <module name="console-service" target="1.8" />
+      <module name="console-utils" target="1.8" />
+      <module name="console-web" target="1.8" />
+      <module name="consolecache" target="1.8" />
+      <module name="consoleconfig" target="1.8" />
+      <module name="consoledemo" target="1.8" />
+      <module name="jy-console" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="console-api" options="-parameters" />
+      <module name="console-config" options="-parameters" />
+      <module name="console-core" options="-parameters" />
+      <module name="console-demo" options="-parameters" />
+      <module name="console-mapper" options="-parameters" />
+      <module name="console-model" options="-parameters" />
+      <module name="console-service" options="-parameters" />
+      <module name="console-utils" options="-parameters" />
+      <module name="console-web" options="-parameters" />
+      <module name="consolecache" options="-parameters" />
+      <module name="consoleconfig" options="-parameters" />
+      <module name="consoledemo" options="-parameters" />
+    </option>
+  </component>
+</project>

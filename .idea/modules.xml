@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/console-api/console-api.iml" filepath="$PROJECT_DIR$/console-api/console-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console-config/console-config.iml" filepath="$PROJECT_DIR$/console-config/console-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console-core/console-core.iml" filepath="$PROJECT_DIR$/console-core/console-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console-demo/console-demo.iml" filepath="$PROJECT_DIR$/console-demo/console-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console-mapper/console-mapper.iml" filepath="$PROJECT_DIR$/console-mapper/console-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console-model/console-model.iml" filepath="$PROJECT_DIR$/console-model/console-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console-service/console-service.iml" filepath="$PROJECT_DIR$/console-service/console-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console-utils/console-utils.iml" filepath="$PROJECT_DIR$/console-utils/console-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console-web/console-web.iml" filepath="$PROJECT_DIR$/console-web/console-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jy-console.iml" filepath="$PROJECT_DIR$/jy-console.iml" />
+    </modules>
+  </component>
+</project>

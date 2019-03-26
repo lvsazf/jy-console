@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/console-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/console-cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/console-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/console-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/console-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/console-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/console-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/console-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/console-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/console-web" charset="UTF-8" />
+  </component>
+</project>
