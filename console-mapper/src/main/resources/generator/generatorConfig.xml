@@ -6,7 +6,7 @@
 	<context id="DB2Tables" targetRuntime="MyBatis3">
 		<!--<plugin-->
 			<!--type="org.mybatis.generator.plugins.EqualsHashCodePlugin"></plugin>-->
-		<plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>
+		<!--<plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>-->
 		<!--<plugin type="org.mybatis.generator.plugins.ToStringPlugin"></plugin>-->
 		<!--<plugin type="org.mybatis.generator.plugins.LombokPlugin" >-->
 			<!--<property name="hasLombok" value="true"/>-->
